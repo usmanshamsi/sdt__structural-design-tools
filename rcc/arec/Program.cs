@@ -20,6 +20,8 @@ namespace arec
 
             const int nArguments = 5;
 
+            Print.Title("AREC: ANALYSIS OF SINGLY REINFORCED RECTANGULAR CONCRETE SECTIONS");
+
             switch (args.Length)
             {
                 case nArguments:
@@ -45,8 +47,7 @@ namespace arec
             fy = Convert.ToDouble(args[3]);
             _as = Convert.ToDouble(args[4]);
 
-            Print.Title("AREC: ANALYSIS OF SINGLY REINFORCED RECTANGULAR CONCRETE SECTIONS");
-
+            
             // print inputs
             Console.WriteLine("I N P U T S");
             Console.WriteLine("-----------");

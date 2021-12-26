@@ -20,6 +20,8 @@ namespace drec
 
             const int nArguments = 5;
 
+            Print.Title("DREC: FLEXURAL DESIGN OF SINGLY REINFORCED RECTANGULAR RCC SECTIONS");
+
             switch (args.Length)
             {
                 case nArguments:
@@ -44,8 +46,7 @@ namespace drec
             mu = Convert.ToDouble(args[4]);
             mu = mu * 12000.0;      // convert from kip-ft to lb-in
 
-            Print.Title("DREC: FLEXURAL DESIGN OF SINGLY REINFORCED RECTANGULAR RCC SECTIONS");
-
+            
             // print inputs
             Console.WriteLine("I N P U T S");
             Console.WriteLine("-----------");
