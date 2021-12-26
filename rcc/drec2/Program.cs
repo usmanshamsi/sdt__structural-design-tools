@@ -65,7 +65,7 @@ namespace drec2
             Console.WriteLine();
 
 
-            double av_over_s_1, av_over_s_2, av_over_s_min, av_over_s; //, spacing, spacing_max;
+            double av_over_s_1, av_over_s_2, av_over_s_min, av_over_s; 
             double rootfc = Math.Sqrt(fc);
 
             av_over_s_1 = 50 * b / fy;
